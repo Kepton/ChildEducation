@@ -47,11 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Models\childeducationContext.cs" />
-    <Compile Include="Models\Mapping\schoolMap.cs" />
-    <Compile Include="Models\Mapping\teacherMap.cs" />
-    <Compile Include="Models\school.cs" />
-    <Compile Include="Models\teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
