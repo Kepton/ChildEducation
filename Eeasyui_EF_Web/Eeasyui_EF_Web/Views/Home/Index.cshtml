@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>MyWebSit</title>
-    <link rel="stylesheet" type="text/css" href="~/Content/Easyui/Themes/gray/easyui.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Easyui/Themes/bootstrap/easyui.css">
     <link rel="stylesheet" type="text/css" href="~/Content/Easyui/Themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Public.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Main.css">
     <script type="text/javascript" src="~/Content/jquery.min.js"></script>
     <script type="text/javascript" src="~/Content/Easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="~/Content/Index.js"></script>
 </head>
 <body class="easyui-layout">
     <div region="north" split="false" style="height: 94px;" iconcls="icon-menu" id="north" border="false" class="title">
@@ -19,7 +22,9 @@
 
             <div style="width: 100%; height: 100%; margin-top: 0; background: #e8e9ec;">
                 <div class="side_menu">
-                    <ul id="ul_menu"></ul>
+                    <ul id="ul_menu">
+                        <li><a id="school" onclick=openTab("shool","school","/Base/School")>校区设置</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -31,10 +36,10 @@
         </div>
     </div>
 
-    <div id="south" iconcls="icon-menu" region="south" split="false" border="false" style="height: 30px;">
+    <div id="south" iconcls="icon-menu" region="south" split="false" border="false" style="height: 35px;">
         <div fit="true" class="easyui-accordion" border="true">
             <div style="width: 100%; height: 100%; margin-top: 0">
-                <div class="footer" style="height: 30px; line-height: 30px; padding: 0 10px; color: #adb3e3; background: #5b67c6;">
+                <div class="footer" style="height: 30px; line-height: 30px; padding: 0 10px;">
                     <div class="fl">
                         版本：1.00
                     </div>

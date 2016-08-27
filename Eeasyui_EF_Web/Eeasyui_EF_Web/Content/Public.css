@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+
+a:link,a:visited{color:#7B68EE;text-decoration: none;}

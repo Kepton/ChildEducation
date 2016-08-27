@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/MainForm/Views/Shared/_blankLayout.cshtml";
+}
+
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'north',split:true,border:false" style="height:50px">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">Add</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">Remove</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">Save</a>
+    </div>
+    <div data-options="region:'center',border:false">
+        <table id="DataGrid">
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Content/App/Base/SchoolIndex.js"></script>
+}

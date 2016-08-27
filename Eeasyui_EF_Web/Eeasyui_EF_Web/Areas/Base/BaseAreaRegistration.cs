@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Eeasyui_EF_Web.Areas.School
+namespace Eeasyui_EF_Web.Areas.Base
 {
     public class SchoolAreaRegistration : AreaRegistration
     {
@@ -8,15 +8,15 @@ namespace Eeasyui_EF_Web.Areas.School
         {
             get
             {
-                return "School";
+                return "Base";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context)
         {
             context.MapRoute(
-                "School_default",
-                "School/{controller}/{action}/{id}",
+                "Base_default",
+                "Base/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

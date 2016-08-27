@@ -6,3 +6,9 @@ Eeasyui_EF_Web/packages/
 Eeasyui_EF_Web/Entity/obj/
 Eeasyui_EF_Web/EFPowerTool/obj/
 Eeasyui_EF_Web/EFPowerTool/bin/
+Eeasyui_EF_Web/DBContext/obj/
+Eeasyui_EF_Web/Common/bin/
+Eeasyui_EF_Web/Common/obj/
+Eeasyui_EF_Web/DBContext/bin/
+Eeasyui_EF_Web/Service/bin/
+*Debug
